@@ -8,7 +8,7 @@ import React , {useState} from 'react'
         setCount(count+1)
     }
   return (
-    <div>
+    <div className='bg'>
         <p>{count}</p>
         <button onClick={increase}>funCounter</button>
     </div>

@@ -16,13 +16,13 @@ function FunctionalForm() {
         alert("success")
     }
   return (
-    <div>
+    <div className='bg'>
         <p>FunctionalForm</p>
         <form onSubmit={submitForm}>
-        Name:<input type='text' name='name' value={inputField.name} onChange={updateForm}/> <br/>
-        Email:<input type='email' name='email' value={inputField.email} onChange={updateForm}/>  <br/>
-        City:<input type='text' name='city' value={inputField.city} onChange={updateForm}/>  <br/>
-        State:<input type='text' name='state' value={inputField.state} onChange={updateForm}/>  <br/>
+        Name:<input type='text' name='name' value={inputField.name} onChange={updateForm}/> <br/> <br/> 
+        Email:<input type='email' name='email' value={inputField.email} onChange={updateForm}/>  <br/><br/> 
+        City:<input type='text' name='city' value={inputField.city} onChange={updateForm}/>  <br/><br/> 
+        State:<input type='text' name='state' value={inputField.state} onChange={updateForm}/>  <br/><br/> 
         <button value="submit">Submit</button>
         </form>
         <h2>{inputField.name}</h2>

@@ -1,0 +1,36 @@
+/* Default styles for larger screens */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /*Ensure content wraps within the container*/
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    /* white-space: nowrap; Prevent text from wrapping */
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column; /* Display links in a column layout */
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

@@ -28,7 +28,7 @@ function Namevalidation() {
         }
     }
   return (
-    <div>
+    <div className='bg'>
         <label htmlFor='username'>Username</label> <br/>
         <input type="text" name='username' value={username} onChange={updateName}/> <br/>
         <span style={{color:"red"}}>{error}</span> <br/>

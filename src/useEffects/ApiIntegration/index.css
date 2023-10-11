@@ -1,0 +1,5 @@
+table ,tr,td,th
+{
+    color: azure;
+    border: 2px solid rgb(233, 248, 14);
+}

@@ -9,7 +9,7 @@ import './index.css'
       document.title=`${name}`
     })
   return (
-    <div>
+    <div className='bg'>
         <input type='text' onChange={onChangeName}/>
         <h3>user entered text is <span className='txt'> {name} </span></h3>
     </div>

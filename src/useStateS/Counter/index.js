@@ -12,7 +12,7 @@ function Counter() {
     setCount(count=>count-1)
    }
   return(
-    <div>
+    <div className='bg'>
         <p >{name}</p>
         <p>you clicked {count} times</p>
         <button onClick={positivevalue}>+</button>
